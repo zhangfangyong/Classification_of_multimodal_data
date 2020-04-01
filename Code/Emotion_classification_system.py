@@ -299,14 +299,5 @@ def main(_):
     model.evaluate(X_test, Y_test)
     model.evaluate(X_train, Y_train, 'training data')
 
-
-
-
-
-
-
-
-
 if __name__ == '__main__':
-
     tf.app.run(main=main)
